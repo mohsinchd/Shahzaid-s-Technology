@@ -1,0 +1,70 @@
+.navbar {
+  border-bottom: dodgerblue solid 3px;
+  opacity: 0.8;
+}
+
+/* Section: showcase
+ */
+#showcase {
+  background: url("/Img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg") no-repeat
+    center center/cover;
+  min-height: 700px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.showcase-content {
+  padding-top: 150px;
+}
+
+.banner-title h1 {
+  color: #333;
+  margin: 0;
+  padding: 10px 10px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8);
+}
+.banner-title h1 strong {
+  color: #0d6efd;
+}
+.banner-title p {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.service-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.what {
+  text-align: center;
+}
+.what h2 {
+  font-size: 2.4rem;
+}
+
+#testimonials {
+  background: url("/Img/Section.jpg") no-repeat center center/cover;
+}
+.testimonial {
+  margin-top: 20px;
+  text-align: center;
+}
+#footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 25px;
+}
+#footer p {
+  text-align: center;
+  margin: 0;
+}
